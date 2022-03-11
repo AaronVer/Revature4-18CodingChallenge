@@ -1,15 +1,15 @@
 package ProjectOne;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class DaysApplication {
 
     public static void main(String[] args){
         //Taking this from Ted's code. Seems all this does is have the program call itself, strangely enough.
         //But I guess that makes the program active so that Postman can access it.
-        SpringApplication.run(DaysApplication.class);
+        //SpringApplication.run(DaysApplication.class);
     }
 }
 

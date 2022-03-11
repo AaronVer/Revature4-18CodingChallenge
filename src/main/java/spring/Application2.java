@@ -1,7 +1,7 @@
 package spring;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*review:
 spring boot introduces some amount of automatic configuration
@@ -15,7 +15,7 @@ to Spring - what this means practically is that we do instantiate dependencies
 Rather, Spring manages our classes as beans, allowing them to be candidates
 for Dependency Injection
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class Application2 {
 
     /*Spring in general:
@@ -35,6 +35,6 @@ public class Application2 {
     on monday
      */
     public static void main(String[] args){
-        SpringApplication.run(Application2.class);
+        //SpringApplication.run(Application2.class);
     }
 }
