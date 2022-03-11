@@ -24,7 +24,7 @@ public class Helmet {
     public int physical_defense;
     @Column
     public int magic_defense;
-    @OneToMany
-    @JoinColumn(name = "helmet_name")
-    public List<EQPCharacter> eqpCharacter;
+    //@OneToMany
+    //@JoinColumn(name = "helmet_name")
+    //public List<EQPCharacter> eqpCharacter;
 }

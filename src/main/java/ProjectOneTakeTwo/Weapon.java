@@ -27,7 +27,7 @@ public class Weapon {
     double attack_speed;
     @Column
     double parry_chance;
-    @OneToMany
-    @JoinColumn(name = "weapon_name")
-    public List<EQPCharacter> eqpCharacter;
+    //@OneToMany
+    //@JoinColumn(name = "weapon_name")
+    //public List<EQPCharacter> eqpCharacter;
 }

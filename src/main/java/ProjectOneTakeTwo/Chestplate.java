@@ -23,7 +23,7 @@ public class Chestplate {
     public int physical_defense;
     @Column
     public int magic_defense;
-    @OneToMany
-    @JoinColumn(name = "chestplate_name")
-    public List<EQPCharacter> eqpCharacter;
+    //@OneToMany
+    //@JoinColumn(name = "chestplate_name")
+    //public List<EQPCharacter> eqpCharacter;
 }

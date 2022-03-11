@@ -24,7 +24,7 @@ public class Boots {
     public int magic_defense;
     @Column
     public int evasion;
-    @OneToMany
-    @JoinColumn(name = "boots_name")
-    public List<EQPCharacter> eqpCharacter;
+    //@OneToMany
+    //@JoinColumn(name = "boots_name")
+    //public List<EQPCharacter> eqpCharacter;
 }
